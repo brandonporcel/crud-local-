@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CRUD API REST FETCH</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>CRUD API REST FETCH</h1>
+		<section class="crud">
+			<article>
+				<h2 class="crud-title">Agregar discos</h2>
+				<form class="crud-form">
+					<input type="text" name="nombre" placeholder="nombre" required />
+					<br />
+					<input type="text" name="artista" placeholder="artista" required />
+					<br />
+					<input type="submit" value="Enviar" />
+					<input type="hidden" name="id" />
+				</form>
+			</article>
+			<hr />
+			<article>
+				<h2>Ver Discos</h2>
+				<table class="crud-table">
+					<thead>
+						<tr>
+							<th>Nombre</th>
+							<th>Artista</th>
+							<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</article>
+		</section>
+		<template id="crud-template">
+			<tr>
+				<td class="template-name"></td>
+				<td class="template-artist"></td>
+				<td>
+					<button class="template-edit">Editar</button>
+					<button class="template-delete">Eliminar</button>
+				</td>
+			</tr>
+		</template>
+		<script src="scriptt.js"></script>
+		<!-- <script src="script.js"></script> -->
+	</body>
+</html>

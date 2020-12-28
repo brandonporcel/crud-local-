@@ -1,0 +1,86 @@
+{
+  "discos": [
+    {
+      "id": 1,
+      "nombre": "abbey road",
+      "artista": "the beatles"
+    },
+    {
+      "id": 2,
+      "nombre": "back to black",
+      "artista": "amy winehouse"
+    },
+    {
+      "id": 3,
+      "nombre": "azul",
+      "artista": "los piojos"
+    },
+    {
+      "nombre": "alvvays",
+      "artista": "alvvays",
+      "id": 6
+    },
+    {
+      "nombre": "dummmy",
+      "artista": "portishead",
+      "id": 7
+    },
+    {
+      "nombre": "PIÑATA",
+      "artista": "FREDDIE GIBS",
+      "id": 8
+    },
+    {
+      "nombre": "almendra",
+      "artista": "almendra",
+      "id": 9
+    },
+    {
+      "nombre": "especial",
+      "artista": "viejas locas",
+      "id": 10
+    },
+    {
+      "nombre": "cuz i love u",
+      "artista": "lizzo",
+      "id": 11
+    },
+    {
+      "nombre": "caligula",
+      "artista": "lingua ignota",
+      "id": 12
+    },
+    {
+      "nombre": "3er arco",
+      "artista": "los piojos",
+      "id": 13
+    },
+    {
+      "nombre": "a",
+      "artista": "q",
+      "id": 15
+    },
+    {
+      "nombre": "df",
+      "artista": "d",
+      "id": 16
+    }
+  ],
+  "peliculas": [
+    {
+      "id": 1,
+      "nombre": "up",
+      "de": "Pete Docter"
+    },
+    {
+      "id": 2,
+      "nombre": "todo sobre mi madre",
+      "de": "almodovar"
+    },
+    {
+      "id": 3,
+      "nombre": "la cienaga",
+      "de": "lucrecia martel"
+    }
+  ]
+}
